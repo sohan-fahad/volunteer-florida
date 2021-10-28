@@ -1,0 +1,46 @@
+.heroBox {
+    position: relative;
+}
+.hero-text {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0;
+
+}
+
+.search-container {
+    border: 0px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 470px;
+    height: 50px;
+    margin: 26px auto 0;
+}
+.search-container #search-box {
+    border: 1px solid #D6D6D6;
+    height: 100%;
+    width: 75%;
+    padding: 0 10px;
+    border-radius: 10px 0 0 10px;
+}
+.search-container #search-btn {
+    width: 25%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    background-color: #3F90FC;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.05;
+    text-transform: uppercase;
+}

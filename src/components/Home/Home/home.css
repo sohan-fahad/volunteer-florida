@@ -1,0 +1,7 @@
+.home {
+    background-image: linear-gradient(#fafafaea, #fafafaea), url(../../../images/Header.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 500px;
+    width: 100%;
+}

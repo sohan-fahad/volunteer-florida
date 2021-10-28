@@ -1,0 +1,13 @@
+.volunteer {
+    width: 100%; 
+    margin: 0 auto;
+    position: relative;
+}
+.volunteer-img {
+    width: 100%;
+}
+.volunteer-title  h5 {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}

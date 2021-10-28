@@ -1,0 +1,67 @@
+.item1 { 
+    grid-area: header; 
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.item2 { 
+    grid-area: menu; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+}
+
+.admin-logo {
+    width: 100%;
+}
+.admin-logo img {
+    width: 150px;
+    height: 120px;
+}
+
+.item2 button {
+    margin-left: 50px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400px;
+    letter-spacing: 0.4px;
+    color: black;
+    background-color: #fff;
+    border: none;
+    transition: 0.2s ease-in;
+    padding: 15px;
+    font-family: Montserrat;
+}
+.item2 button:hover {
+    color: #207FEE;
+}
+.item3 { 
+    grid-area: main; 
+    background-color: #F5F6FA;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu header header header header header'
+    'menu main main main main main'
+    'menu main main main main main';
+
+  padding: 10px;
+  height: auto;
+}
